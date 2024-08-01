@@ -1,0 +1,120 @@
+/* Чтобы убрать белые линии вокруг экрана ставим маргин 0 */
+/* https://inquisitive-pasca-96e00a.netlify.app/ */
+body {
+    margin: 0;
+    background-color: #fbeee0;
+}
+
+#myBakery {
+    width: 100%;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.heading {
+    color: #d55b3d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+}
+.images-section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.heading-h2 {
+    color: #d55b3d;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+/* Заменили его на class header в "images 2", но в хедер не хватает 
+flex-wrap: wrap для мобильной адаптации */
+/* .images-footer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+} */
+
+#pictures-section {
+    margin: 40px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    background-color: #ffbdb0;
+    width: 350px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+.item-name {
+    color: #d55b3d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    background-color: #fbeee0;
+    color: #7c7575;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+del {
+    font-size: 20px;
+    color: #52616b;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
+}
+ins {
+    font-size: 20px;
+    color: #52616b;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    transform: rotate(-7deg);
+}
+.special {
+    font-size: 20px;
+    color: #52616b;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+/* Если у нас есть margin где-то вверху, то скорее всего в мобильной адаптации его придется убирать 
+на 0 или подстраивать на меньший размер */
+@media all and (max-width: 800px) {
+    .wrapper {
+        /* display flex  */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    img {
+        width: 90%;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .heading-h2,
+    .heading {
+        font-size: 15px;
+    }
+    .item {
+        width: 100%;
+        height: auto;
+    }
+    #pictures-section {
+        margin: 20px 0px;
+    }
+}

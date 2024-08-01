@@ -1,10 +1,7 @@
-/* Чтобы убрать белые линии вокруг экрана ставим маргин 0 */
-/* https://inquisitive-pasca-96e00a.netlify.app/ */
 body {
     margin: 0;
     background-color: #fbeee0;
 }
-
 #myBakery {
     width: 100%;
 }
@@ -28,18 +25,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 40px;
 }
-/* Заменили его на class header в "images 2", но в хедер не хватает 
-flex-wrap: wrap для мобильной адаптации */
-/* .images-footer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-} */
-
 #pictures-section {
     margin: 40px;
 }
-
 .wrapper {
     display: flex;
     justify-content: center;
@@ -57,7 +45,6 @@ flex-wrap: wrap для мобильной адаптации */
     color: #d55b3d;
     font-family: 'Montserrat', sans-serif;
 }
-
 ul {
     background-color: #fbeee0;
     color: #7c7575;
@@ -89,9 +76,6 @@ ins {
     display: flex;
     justify-content: center;
 }
-
-/* Если у нас есть margin где-то вверху, то скорее всего в мобильной адаптации его придется убирать 
-на 0 или подстраивать на меньший размер */
 @media all and (max-width: 800px) {
     .wrapper {
         /* display flex  */

@@ -1,4 +1,5 @@
-# Bakery
+🍰
+
 # Bakery
 
 Welcome to the Bakery project! This project showcases a bakery website with a collection of delicious cakes and pastries. The website features a modern, responsive design with a video background and detailed descriptions of baked goods.

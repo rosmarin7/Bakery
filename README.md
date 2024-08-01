@@ -123,33 +123,12 @@ The `styles.css` file contains the following styles for the Bakery project:
     }
     ```
 
-## How to Contribute
-
-If you want to contribute to this project, please follow these steps:
-
-1. **Fork the repository**.
-2. **Create a new branch**:
-
-    ```bash
-    git checkout -b feature-branch
-    ```
-
-3. **Make your changes** and commit them:
-
-    ```bash
-    git add .
-    git commit -m "Add new feature"
-    ```
-
-4. **Push to the branch**:
-
-    ```bash
-    git push origin feature-branch
-    ```
-
-5. **Create a pull request** on GitHub.
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is intended for educational purposes only. You are free to use, modify, and distribute this project for learning and educational activities. However, it should not be used for commercial purposes without explicit permission.
+
+Please provide appropriate credit when using or sharing this project. For any questions regarding the use of this project, please contact the project owner.
+
+**Note:** This project does not fall under any formal license such as MIT or GPL. Its use is governed by the terms outlined above.
+
 
